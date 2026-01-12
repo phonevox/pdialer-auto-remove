@@ -156,3 +156,5 @@ echo -e "  • Ver crontab: ${YELLOW}crontab -l${NC}"
 echo -e "  • Desinstalar: ${YELLOW}sudo $0 (e escolher opção 2)${NC}\n"
 
 echo -e "${GREEN}✓ Tudo pronto!${NC}\n"
+
+sudo bash /usr/local/bin/cleanup_dialerd.sh
